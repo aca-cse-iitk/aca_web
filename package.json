@@ -4,7 +4,7 @@
   "description": "educenter free education template",
   "author": "Themefisher",
   "license": "MIT",
-  "homepage": "https://hitesh-anand.github.io/aca_web",
+  "homepage": "https://aca-cse-iitk.github.io/aca_web",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d theme",
