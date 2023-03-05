@@ -5,7 +5,7 @@
   "author": "Themefisher",
   "license": "MIT",
   "homepage": "https://aca-cse-iitk.github.io/aca_web",
-  "scripts": {
+  "scripts": {  
     "predeploy": "npm run build",
     "deploy": "gh-pages -d theme",
     "dev": "gulp",
