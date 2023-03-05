@@ -20,10 +20,10 @@ var source = require('vinyl-source-stream');
 // /**
 //  * Push build to gh-pages
 //  */
-// gulp.task('deploy', function () {
-//   return gulp.src("./dist/**/*")
-//     .pipe(deploy())
-// });
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 var path = {
   src: {
