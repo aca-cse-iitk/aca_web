@@ -1513,7 +1513,6 @@ jQuery(function () {
     //    }
     //    });
   });
-
   $.get("data/eventslist.csv", function (data) {
     var content = "";
     data.split("\n").forEach(function (row) {
@@ -1699,7 +1698,6 @@ jQuery(function () {
           }, 500); // act rarely to stay fast
         }
       };
-
       html.style.height = 'auto';
       setTimeout(refresh, 10);
 
@@ -1927,7 +1925,6 @@ jQuery(function () {
         return true;
       // a key we don't care about
     }
-
     scrollArray(elem, x, y);
     event.preventDefault();
   }
@@ -2118,7 +2115,6 @@ var mapdata = {
   // ".card-worktg" : 14,
   // Delete : 15,
 };
-
 var sf = "https://docs.google.com/spreadsheets/d/11Tb777PaN4opl0Oazqf9UznrOixbBbNb4vMsltJ2yBQ/gviz/tq?tqx=out:json";
 $.ajax({
   url: sf,
